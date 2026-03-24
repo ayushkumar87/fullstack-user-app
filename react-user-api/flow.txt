@@ -1,0 +1,28 @@
+Browser Request
+      ↓
+Express Server
+      ↓
+Route Match
+      ↓
+Controller
+      ↓
+req.query
+      ↓
+Build filter
+      ↓
+MongoDB (User.find)
+      ↓
+Filtered data
+      ↓
+res.json()
+      ↓
+Browser
+
+
+URL → req.query → filter → DB → JSON → output
+
+
+
+
+
+
